@@ -2,7 +2,7 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 
 export default function BeforeAfterSection() {
   return (
-    <section className="w-full">
+    <section className="w-full overflow-hidden bg-[url('/images/pattern.png')] bg-cover bg-center bg-no-repeat">
 
       <div className="relative left-1/2 -translate-x-1/2 w-[95%] md:w-[85%] max-w-7xl py-12 sm:py-14 md:py-16 flex flex-col items-center">
 

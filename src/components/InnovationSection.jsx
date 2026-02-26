@@ -309,8 +309,8 @@ export default function InnovationSection() {
   }
 
   return (
-    <section className="relative w-full overflow-hidden bg-[url('/images/background_image.jpeg')] bg-cover bg-center bg-no-repeat py-15 px-6">
-      <div className="absolute inset-0 bg-white/55 pointer-events-none" />
+    <section className="relative w-full overflow-hidden bg-[url('/images/pattern.png')] bg-cover bg-center bg-no-repeat py-15 px-6">
+      <div className="absolute pointer-events-none" />
 
       <div className="relative z-[1] mx-auto max-w-[1220px]">
         <div className="text-center mb-20">

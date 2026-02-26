@@ -196,7 +196,7 @@ export default function ThoughtfulReadsSection() {
   }, [items.length, inView]);
 
   return (
-    <section ref={sectionRef} className="relative w-full overflow-hidden">
+    <section ref={sectionRef} className="relative w-full overflow-hidden bg-[url('/images/pattern.png')] bg-cover bg-center bg-no-repeat">
       <div className="absolute inset-0">
         <div
           className="absolute inset-x-0 top-0 h-[320px] opacity-40"

@@ -77,7 +77,7 @@ export default function PropertySection() {
   const dots = Math.max(1, maxIndex + 1);
 
   return (
-    <section className="relative w-full overflow-hidden font-sans">
+    <section className="relative w-full overflow-hidden bg-[url('/images/pattern.png')] bg-cover bg-center bg-no-repeats">
       <div className="absolute inset-x-0 top-0 h-[340px] opacity-40 pointer-events-none bg-[linear-gradient(135deg,#dbe6ec_1px,transparent_1px),linear-gradient(45deg,#dbe6ec_1px,transparent_1px)] bg-[size:42px_42px]" />
       <div className="absolute inset-x-0 bottom-0 h-[240px] bg-[#073b46]" />
 
